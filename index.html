@@ -4,29 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ashutosh Rana | DevOps Engineer</title>
+    <title>Captain Ashu | DevOps Pirate</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;600;700;800&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <canvas id="bg-canvas"></canvas>
-    <div class="overlay"></div>
+    <div class="bg-texture"></div>
 
     <nav class="navbar">
         <div class="container nav-container">
-            <a href="#" class="logo">ASHU<span class="dot">.</span>DEV</a>
+            <a href="#" class="logo"><i class="fas fa-skull-crossbones"></i> CAPTAIN ASHU</a>
             <ul class="nav-links">
-                <li><a href="#about" data-text="About">About</a></li>
-                <li><a href="#skills" data-text="Skills">Skills</a></li>
-                <li><a href="#projects" data-text="Projects">Projects</a></li>
-                <li><a href="#experience" data-text="Experience">Experience</a></li>
-                <li><a href="#contact" data-text="Contact">Contact</a></li>
+                <li><a href="#about">Logbook</a></li>
+                <li><a href="#skills">Devil Fruits</a></li>
+                <li><a href="#projects">Adventures</a></li>
+                <li><a href="#experience">Grand Line</a></li>
+                <li><a href="#contact">Snail Phone</a></li>
             </ul>
             <div class="hamburger">
                 <span class="bar"></span>
@@ -38,29 +36,37 @@
 
     <header id="hero" class="hero">
         <div class="container hero-container">
+            <div class="wanted-poster">
+                <div class="poster-header">
+                    <span>WANTED</span>
+                </div>
+                <div class="poster-image-container">
+                    <img src="one_piece_avatar.png" alt="Ashutosh Rana" class="poster-image">
+                </div>
+                <div class="poster-name">ASHUTOSH RANA</div>
+                <div class="poster-bounty">
+                    <span>DEAD OR ALIVE</span>
+                    <div class="bounty-amount">
+                        <span class="currency">฿</span> 5,000,000,000
+                    </div>
+                </div>
+                <div class="poster-footer">MARINE HQ</div>
+            </div>
             <div class="hero-content">
-                <p class="glitch-text-sm">System Online...</p>
-                <h1 class="glitch" data-text="Ashutosh Rana">Ashutosh Rana</h1>
-                <h2 class="subtitle">DevOps Engineer <span class="accent">&</span> Cloud Architect</h2>
-                <p class="description">
-                    Automating infrastructure, scaling systems, and building robust CI/CD pipelines.
-                    <br>Specialized in AWS, Kubernetes, and Python.
+                <h1 class="pirate-title">The DevOps King</h1>
+                <h2 class="pirate-subtitle">Conquering the Cloud Seas</h2>
+                <p class="pirate-desc">
+                    Setting sail to automate infrastructure, scale systems, and build the ultimate CI/CD pipelines.
+                    Specialized in AWS, Kubernetes, and Python.
                 </p>
                 <div class="cta-buttons">
-                    <a href="#projects" class="btn btn-primary">View Missions</a>
-                    <a href="#contact" class="btn btn-secondary">Initialize Comms</a>
+                    <a href="#projects" class="btn btn-primary">View My Treasure</a>
+                    <a href="#contact" class="btn btn-secondary">Join the Crew</a>
                 </div>
                 <div class="social-icons">
                     <a href="#" target="_blank"><i class="fab fa-github"></i></a>
                     <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
                     <a href="mailto:ashutoshrana2580@gmail.com"><i class="fas fa-envelope"></i></a>
-                </div>
-            </div>
-            <div class="hero-visual">
-                <div class="avatar-container">
-                    <img src="anime_avatar.png" alt="Ashutosh Rana Avatar" class="avatar">
-                    <div class="circle-orbit"></div>
-                    <div class="circle-orbit-2"></div>
                 </div>
             </div>
         </div>
@@ -69,19 +75,20 @@
     <section id="about" class="section">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title" data-text="About Me">About Me</h2>
-                <div class="line"></div>
+                <h2 class="section-title">Captain's Log</h2>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Jolly_Roger.svg/1200px-Jolly_Roger.svg.png"
+                    alt="Skull" class="section-icon" style="display:none;"> <!-- Placeholder for icon -->
+                <div class="divider"><i class="fas fa-anchor"></i></div>
             </div>
-            <div class="glass-card about-card">
+            <div class="parchment-card about-card">
                 <p>
-                    Motivated <strong>Computer Science graduate</strong> with hands-on experience in <strong>AWS, Linux
-                        administration, Python scripting, SQL databases, CI/CD pipelines</strong>, and containerization
-                    using <strong>Docker and Kubernetes</strong>.
+                    Ahoy! I be a motivated <strong>Computer Science graduate</strong> with hands-on experience in
+                    <strong>AWS, Linux administration, Python scripting, SQL databases, CI/CD pipelines</strong>, and
+                    containerization using <strong>Docker and Kubernetes</strong>.
                 </p>
                 <p>
-                    Strong understanding of automation, cloud infrastructure, and DevOps practices to improve deployment
-                    efficiency and system reliability. I bridge the gap between code and operations, ensuring seamless
-                    delivery of high-quality software.
+                    I navigate the treacherous waters of automation and cloud infrastructure to ensure smooth sailing
+                    for deployment efficiency and system reliability.
                 </p>
             </div>
         </div>
@@ -90,14 +97,14 @@
     <section id="skills" class="section">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title" data-text="Arsenal">Arsenal</h2>
-                <div class="line"></div>
+                <h2 class="section-title">Devil Fruit Powers</h2>
+                <div class="divider"><i class="fas fa-bolt"></i></div>
             </div>
             <div class="skills-grid">
                 <!-- Cloud -->
                 <div class="skill-card">
-                    <div class="icon-box"><i class="fas fa-cloud"></i></div>
-                    <h3>Cloud Computing</h3>
+                    <div class="fruit-icon"><i class="fas fa-cloud"></i></div>
+                    <h3>Moku Moku no Mi (Cloud)</h3>
                     <ul class="skill-list">
                         <li>AWS (EC2, S3, IAM)</li>
                         <li>Lambda, VPC</li>
@@ -106,8 +113,8 @@
                 </div>
                 <!-- DevOps -->
                 <div class="skill-card">
-                    <div class="icon-box"><i class="fas fa-cogs"></i></div>
-                    <h3>DevOps & Tools</h3>
+                    <div class="fruit-icon"><i class="fas fa-cogs"></i></div>
+                    <h3>Ope Ope no Mi (Ops)</h3>
                     <ul class="skill-list">
                         <li>Docker & Kubernetes</li>
                         <li>Jenkins (CI/CD)</li>
@@ -117,8 +124,8 @@
                 </div>
                 <!-- Scripting -->
                 <div class="skill-card">
-                    <div class="icon-box"><i class="fas fa-terminal"></i></div>
-                    <h3>Scripting & Code</h3>
+                    <div class="fruit-icon"><i class="fas fa-code"></i></div>
+                    <h3>Gomu Gomu no Mi (Flexibility)</h3>
                     <ul class="skill-list">
                         <li>Python</li>
                         <li>Shell Scripting (Bash)</li>
@@ -128,8 +135,8 @@
                 </div>
                 <!-- System -->
                 <div class="skill-card">
-                    <div class="icon-box"><i class="fab fa-linux"></i></div>
-                    <h3>System & Monitor</h3>
+                    <div class="fruit-icon"><i class="fab fa-linux"></i></div>
+                    <h3>Hito Hito no Mi (System)</h3>
                     <ul class="skill-list">
                         <li>Linux Administration</li>
                         <li>Windows Server</li>
@@ -144,42 +151,39 @@
     <section id="projects" class="section">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title" data-text="Missions">Missions</h2>
-                <div class="line"></div>
+                <h2 class="section-title">Adventure Log</h2>
+                <div class="divider"><i class="fas fa-map-marked-alt"></i></div>
             </div>
             <div class="projects-grid">
                 <!-- Project A -->
                 <div class="project-card">
                     <div class="card-content">
-                        <h3>CI/CD Pipeline on AWS</h3>
+                        <h3>CI/CD Pipeline Island</h3>
                         <p class="tech-stack">Jenkins • Tomcat • Nexus • AWS</p>
                         <p>Built an automated CI/CD pipeline using Jenkins, Git, Maven, and Nexus, automating 75% of the
                             build and release process.</p>
-                        <a href="#" class="card-link">View Code <i class="fas fa-arrow-right"></i></a>
+                        <a href="#" class="card-link">Explore Island <i class="fas fa-ship"></i></a>
                     </div>
-                    <div class="card-glow"></div>
                 </div>
                 <!-- Project B -->
                 <div class="project-card">
                     <div class="card-content">
-                        <h3>Dockerized Full-Stack App</h3>
+                        <h3>Docker Fortress</h3>
                         <p class="tech-stack">Docker • MySQL • Web App</p>
                         <p>Deployed a full-stack app with MySQL in Docker containers, reducing environment issues by
                             70%.</p>
-                        <a href="#" class="card-link">View Code <i class="fas fa-arrow-right"></i></a>
+                        <a href="#" class="card-link">Explore Island <i class="fas fa-ship"></i></a>
                     </div>
-                    <div class="card-glow"></div>
                 </div>
                 <!-- Project C -->
                 <div class="project-card">
                     <div class="card-content">
-                        <h3>AWS Cloud Infrastructure</h3>
+                        <h3>AWS Archipelago</h3>
                         <p class="tech-stack">EC2 • S3 • IAM • Cloud</p>
                         <p>Deployed a web app on AWS EC2 with S3 and IAM, improving performance by 50% and reducing
                             manual setup by 40%.</p>
-                        <a href="#" class="card-link">View Code <i class="fas fa-arrow-right"></i></a>
+                        <a href="#" class="card-link">Explore Island <i class="fas fa-ship"></i></a>
                     </div>
-                    <div class="card-glow"></div>
                 </div>
             </div>
         </div>
@@ -188,15 +192,15 @@
     <section id="experience" class="section">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title" data-text="Timeline">Timeline</h2>
-                <div class="line"></div>
+                <h2 class="section-title">Grand Line Journey</h2>
+                <div class="divider"><i class="fas fa-compass"></i></div>
             </div>
             <div class="timeline">
                 <!-- Education -->
                 <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">Aug 2021 – May 2025</div>
+                    <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
                     <div class="timeline-content">
+                        <span class="date">Aug 2021 – May 2025</span>
                         <h3>B.Tech in Computer Science</h3>
                         <h4>Roland Institute of Technology</h4>
                         <p>CGPA: 8.35</p>
@@ -204,9 +208,9 @@
                 </div>
                 <!-- Internship 1 -->
                 <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">Oct 2023 – Dec 2023</div>
+                    <div class="timeline-icon"><i class="fab fa-aws"></i></div>
                     <div class="timeline-content">
+                        <span class="date">Oct 2023 – Dec 2023</span>
                         <h3>Cloud Virtual Internship</h3>
                         <h4>AWS Academy</h4>
                         <p>Gained hands-on experience with AWS cloud services.</p>
@@ -214,9 +218,9 @@
                 </div>
                 <!-- Course 1 -->
                 <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">Feb 2025 – Present</div>
+                    <div class="timeline-icon"><i class="fab fa-python"></i></div>
                     <div class="timeline-content">
+                        <span class="date">Feb 2025 – Present</span>
                         <h3>Python Full Stack</h3>
                         <h4>PySpiders, Bengaluru</h4>
                         <p>Professional training in Python and Full Stack development.</p>
@@ -224,9 +228,9 @@
                 </div>
                 <!-- Course 2 -->
                 <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">June 2025 – Present</div>
+                    <div class="timeline-icon"><i class="fas fa-server"></i></div>
                     <div class="timeline-content">
+                        <span class="date">June 2025 – Present</span>
                         <h3>AWS and DevOps</h3>
                         <h4>PySpiders, Bengaluru</h4>
                         <p>Professional training in Cloud and DevOps methodologies.</p>
@@ -234,9 +238,9 @@
                 </div>
                 <!-- Certification -->
                 <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">Issued Aug 2025</div>
+                    <div class="timeline-icon"><i class="fas fa-certificate"></i></div>
                     <div class="timeline-content">
+                        <span class="date">Issued Aug 2025</span>
                         <h3>Oracle Cloud Infrastructure 2025</h3>
                         <h4>AI Foundations Associate</h4>
                         <p>Valid till Aug 2027</p>
@@ -249,27 +253,21 @@
     <section id="contact" class="section">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title" data-text="Initialize Comms">Initialize Comms</h2>
-                <div class="line"></div>
+                <h2 class="section-title">Den Den Mushi</h2>
+                <div class="divider"><i class="fas fa-phone"></i></div>
             </div>
             <div class="contact-wrapper">
                 <form class="contact-form">
                     <div class="form-group">
-                        <input type="text" required>
-                        <label>Codename</label>
-                        <div class="bar"></div>
+                        <input type="text" placeholder="Pirate Name" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" required>
-                        <label>Frequency (Email)</label>
-                        <div class="bar"></div>
+                        <input type="email" placeholder="Snail Mail (Email)" required>
                     </div>
                     <div class="form-group">
-                        <textarea rows="5" required></textarea>
-                        <label>Transmission</label>
-                        <div class="bar"></div>
+                        <textarea rows="5" placeholder="Message to the Captain" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Send Transmission</button>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
                 </form>
                 <div class="contact-info">
                     <div class="info-item">
@@ -291,7 +289,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Ashutosh Rana. System All Green.</p>
+            <p>&copy; 2025 Captain Ashutosh Rana. To be the King of DevOps!</p>
         </div>
     </footer>
 
